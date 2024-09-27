@@ -1,0 +1,54 @@
+{
+    "name": "DragMenu",
+    "maps": [
+        {
+            "name": "Input",
+            "id": "f00d155e-64cb-4721-9869-9bc08e0c1c9d",
+            "actions": [
+                {
+                    "name": "Pressed",
+                    "type": "Button",
+                    "id": "2e351af5-4834-4161-a791-8878a99ee917",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DragDelta",
+                    "type": "Value",
+                    "id": "8098a260-b5e5-4143-b0f0-ec39867dcb42",
+                    "expectedControlType": "Delta",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4d7709b1-eb56-4433-bb76-f0ce6f3d0976",
+                    "path": "<Mouse>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b375b895-e49a-4b02-aeae-1c8cab66831c",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DragDelta",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

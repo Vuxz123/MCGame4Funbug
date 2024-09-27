@@ -1,0 +1,54 @@
+{
+    "name": "Player",
+    "maps": [
+        {
+            "name": "Input",
+            "id": "320a56f9-7957-4629-a325-542f2d831ad8",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "3e624943-8128-4daf-8ecd-4ce4ead6e850",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ClickPosition",
+                    "type": "Value",
+                    "id": "25532c28-30b1-4471-8fdc-bfe20aaf4d3d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7c194f5e-9097-494c-91b3-1ce953bb1f4f",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ccda336b-bcbf-435f-83bb-139de3989001",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ClickPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
